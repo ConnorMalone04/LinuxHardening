@@ -2,7 +2,7 @@
 I began with a new verified ISO disk image of Ubuntu Desktop from the Ubuntu official website.
 It is important to use verified sources for downloading disk images, and any other software or files.
 
-## (Ubuntu Desktop) [https://ubuntu.com/download/desktop]
+## [Ubuntu Desktop](https://ubuntu.com/download/desktop)
 
 ## Pre-installation
 Enabling SecureBoot in BIOS ensures that the operating system being loaded (Ubuntu) has been cryptopgraphically signed by a known vendor using the PKI. This ensures the integrity of the operating system being loaded, and that nothing has changed from the release of the image from Ubuntu.
