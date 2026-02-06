@@ -37,9 +37,9 @@ Enable HTTPS-Only Mode in all windows. This only allows secure connections to we
 One of the most common reasons for web compromisation is untrusted extensions. Untrusted extensions can pose significant security risks, as they may not follow proper guidelines and could potentially access sensitive data or harm your device.
 
 Trusted extensions to use:
-**uBlock Origin** for ad, tracking, and script protection
-**Firefox Multi-Account Containers** for better compartmentalization
-**Skip Redirect** to avoid intermediary redirect pages
+* **uBlock Origin** for ad, tracking, and script protection
+* **Firefox Multi-Account Containers** for better compartmentalization
+* **Skip Redirect** to avoid intermediary redirect pages
  
 ## Further Hardening
 For everything covered here and more:
