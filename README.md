@@ -19,4 +19,5 @@ such as Mozilla Firefox ESR. This serves as a personal project to harden my syst
 
 ## Tools Used
 - Ubuntu 24.04
+- [References](docs/references.md)
 
