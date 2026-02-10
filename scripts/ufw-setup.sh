@@ -1,22 +1,26 @@
-!# /usr/bin/bash
+#!/usr/bin/env bash
 
-# set default policies
-ufw default deny incoming
-ufw default allow outgoing
-ufw default deny routed
+# Remove existing rules
+sudo ufw reset
 
-ufw allow ssh
+# Default policies
+sudo ufw default deny incoming
+sudo ufw default allow outgoing
+sudo ufw default deny routed
 
-ufw allow http ufw allow https
+# Allow essential services
+sudo ufw allow http
+sudo ufw allow https
 
-ufw logging on
+# SSH with rate limiting
+sudo ufw limit ssh/tcp
 
-ufw enable
+# Allow DHCP client (cloud instances)
+sudo ufw allow 68/udp
 
-# set up rate limiting to protect against DoS attacks on SSH
-ufw limit ssh/tcp
+# Enable logging
+sudo ufw logging on
 
-# allow DHCP client for cloud instances
-ufw allow 68/udp
+# Enable firewall
+sudo ufw --force enable
 
-echo "UFW firewall enabled"
