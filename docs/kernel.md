@@ -1,7 +1,10 @@
 # Kernel Hardening
 
 ## sysctl
-...WIP...
+sysctl configures kernel parameters to harden the system, e.g., tightening 
+networking, memory, and process controls. This guide uses a dedicated sysctl 
+script to create a new config file and apply the settings automatically. Run 
+the script to load the hardened parameters immediately and at boot.
 
 
 ## AppArmor
