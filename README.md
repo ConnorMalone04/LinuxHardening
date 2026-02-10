@@ -15,6 +15,7 @@ such as Mozilla Firefox ESR. This serves as a personal project to harden my syst
 ## Hardening Steps
 - [Installation](docs/installation.md)
 - [Kernel Hardening](docs/kernel.md)
+- [Firewall Setup and Configuration](docs/ufw.md)
 - [Browser Hardening](docs/browser.md)
 
 ## Tools Used
